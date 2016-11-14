@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#container {
+  border: 3px solid rgb(0, 179, 180);
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#div1 {
+  width:30%;
+  display: inline-block;
+  text-align: center;
+  background-color: orange;
+  height: 200px;
+}
+
+#div1 img {
+  width:inherit;
+
+}
+
+#div2 {
+  width:45%;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid blue;
+  float: right;
+  height: 200px;
+}
+
+#div2 .here {
+  border-bottom: 3px solid blue;
+}
+
+.bigger {
+  padding: 30px;
+}
+
+span {
+  float: right;
+}
